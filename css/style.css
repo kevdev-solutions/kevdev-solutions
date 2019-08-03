@@ -1,0 +1,136 @@
+body, html {
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(238, 238, 238); /*rgba(51, 51, 51, 0.974); */
+}
+
+
+.bg-kev{
+    background: rgba(42, 44, 47,0.8);
+  }
+
+  .showcase{
+      height: 100%;
+      background-image: url('../assets/showcase.JPG');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+  }
+
+  #show-text{
+      text-align:center;
+      color:white;
+      font-size:2em;
+      font-family: 'Anton', sans-serif;
+
+  }
+  #show-text span{
+      color:black;
+      /* font-size: 2em; */
+  }
+
+  #intro{
+      text-align:center;
+      font-size:2em;
+      color:grey;
+      padding-top:15px;
+      font-family: 'Josefin Sans', sans-serif;
+
+  }
+
+  #title-section{
+      border-left: 5px solid rgb(0, 0, 0);
+      padding-left:3px;
+      color:rgb(117, 116, 116);
+      padding-bottom:20px;
+      margin-bottom:20px;
+      font-family: 'Anton', sans-serif;
+  }
+
+  #title-section-b{
+    border-left: 5px solid rgb(255, 255, 255);
+    padding-left:3px;
+    color:rgb(117, 116, 116);
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    font-family: 'Anton', sans-serif;
+  }
+  #services,#portfolio{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  #about{
+      background-color: black;
+      color:rgb(187, 181, 181);
+      padding-top:50px;
+      padding-bottom: 50px;
+  }
+
+  #about p{
+      font-size:1.6em;
+      font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  /* services */
+
+  #services p{
+    font-size:1.6em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.services-kds{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+    text-align:center;
+}
+
+.services-kds .box p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:0.6em;
+    color:grey;
+}
+
+.all-portfolio{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+    text-align:center;
+}
+
+
+#contact{
+    
+    background: rgb(105, 105, 105);
+}
+
+.form-contact{
+    background-image: url('../assets/showcase.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+.contact-info {
+    padding-top:50px;
+}
+
+.contact-info p{
+    padding-top:70px;
+}
+.form-contact form{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    text-align:center;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    margin:0;
+}
